@@ -9,5 +9,7 @@ namespace mvc.lubetech.com.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
+        public int CustomerId { get; set; }
+        public int ShipToId { get; set; }
     }
 }

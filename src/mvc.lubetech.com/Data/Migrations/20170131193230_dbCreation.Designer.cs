@@ -8,9 +8,10 @@ using mvc.lubetech.com.Data;
 namespace mvc.lubetech.com.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170131193230_dbCreation")]
+    partial class dbCreation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -132,8 +133,6 @@ namespace mvc.lubetech.com.Data.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
-                    b.Property<int>("CustomerId");
-
                     b.Property<string>("Email")
                         .HasAnnotation("MaxLength", 256);
 
@@ -156,8 +155,6 @@ namespace mvc.lubetech.com.Data.Migrations
                     b.Property<bool>("PhoneNumberConfirmed");
 
                     b.Property<string>("SecurityStamp");
-
-                    b.Property<int>("ShipToId");
 
                     b.Property<bool>("TwoFactorEnabled");
 
