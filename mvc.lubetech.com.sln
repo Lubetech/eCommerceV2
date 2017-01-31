@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C8F0E2C-B871-4EAF-8FAB-B2185CBDA387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7D0EB01-392E-4A73-A156-783840374C84}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "mvc.lubetech.com", "src\mvc.lubetech.com\mvc.lubetech.com.xproj", "{AE111CB1-7DE6-4454-8051-17664CDD0A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE111CB1-7DE6-4454-8051-17664CDD0A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE111CB1-7DE6-4454-8051-17664CDD0A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE111CB1-7DE6-4454-8051-17664CDD0A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE111CB1-7DE6-4454-8051-17664CDD0A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE111CB1-7DE6-4454-8051-17664CDD0A66} = {1C8F0E2C-B871-4EAF-8FAB-B2185CBDA387}
+	EndGlobalSection
+EndGlobal
